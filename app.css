@@ -124,7 +124,7 @@ background-image:url(icons/fire-extinguisher.svg)
     top:0px;
     right:50%; //Increase it if you want a little space between the 2 divs.
     min-height:400px; // or bottom:0px; if you want a dynamic height
-	
+
 }
 #rightDiv
 {
@@ -132,6 +132,13 @@ background-image:url(icons/fire-extinguisher.svg)
     float:right;
     min-height:400px;
 	background-color:#6F6;
+}
+
+#footer{
+	width: 100%;
+	position: relative;
+	min-height: 250px;
+	background-color:#666;
 }
 
 }
