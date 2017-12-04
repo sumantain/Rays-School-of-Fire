@@ -46,6 +46,12 @@ background-image:url(icons/fire-extinguisher.svg)
 {
 	background-color:#6F6;
 }
+#footer{
+	width: 100%;
+	position: relative;
+	min-height: 300px;
+	background-color:#666;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
