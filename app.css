@@ -116,6 +116,7 @@ background-image:url(icons/fire-extinguisher.svg)
 #rightNotic
 {
 	background-color:#6F6;
+	min-height: 100px;
 }
 
 #footer{
