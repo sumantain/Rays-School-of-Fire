@@ -3,11 +3,18 @@
 img, object, embed, video {
 	max-width: 100%;
 	background-color:#CCC;
+
 }
 
 .ie6 img {
 	width:100%;
+
 }
+
+/* body{
+width:100%;
+	background-image: url("img/bg.gif");
+} */
 
 /* Mobile Layout: 480px and below. */
 
@@ -15,7 +22,7 @@ img, object, embed, video {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	background-color:#CCC;
+	background-image: url("img/bg.gif");
 }
 
 #header{
@@ -31,7 +38,7 @@ img, object, embed, video {
 	width:30px;
 	height:30px;
 	margin:10px;
-background-image:url(icons/fire-extinguisher.svg)
+background-image:url(img\logo_ray_s_edu.png)
 }
 #parentDiv
 {
@@ -85,10 +92,10 @@ background-image:url(icons/fire-extinguisher.svg)
 	position:absolute;
 	left:0px;
 	right:0px;
-	width:100px;
+	width:200px;
 	height:100px;
 	margin:10px;
-	background-image:url(icons/fire-extinguisher.svg)
+	background-image:url(img\logo_ray_s_edu.png)
 }
 #parentDiv
 {
@@ -97,11 +104,15 @@ background-image:url(icons/fire-extinguisher.svg)
 }
 #leftDiv
 {
-	background-color:#999;
+	background-color:#000;
+	opacity: 0.8;
+    filter: alpha(opacity=50);
 }
 #rightDiv
 {
-	background-color:#6F6;
+	background-color:#000;
+	opacity: 0.8;
+    filter: alpha(opacity=50);
 }
 
 #parentNotic
@@ -147,10 +158,10 @@ background-image:url(icons/fire-extinguisher.svg)
 	position:absolute;
 	left:0px;
 	right:0px;
-	width:100px;
+	width:200px;
 	height:100px;
 	margin:10px;
-	background-image:url(icons/fire-extinguisher.svg)
+	background-image:url(img\logo_ray_s_edu.png)
 }
 #parentDiv
 {
@@ -160,18 +171,20 @@ background-image:url(icons/fire-extinguisher.svg)
 #leftDiv
 {
     position:absolute;
-		background-color:#999;
     left:0px;
     top:0px;
     right:70%; //Increase it if you want a little space between the 2 divs.
-    min-height: 400px; // or bottom:0px; if you want a dynamic height
+    min-height: 200px; // or bottom:0px; if you want a dynamic height
+		opacity: 0.8;
+		filter: alpha(opacity=10);
 }
 #rightDiv
 {
     width:70%;
     float:right;
-    min-height:400px;
-		background-color:#6F6;
+    min-height:200px;
+		opacity: 0.8;
+    filter: alpha(opacity=50);
 }
 
 #parentNotic
@@ -182,18 +195,25 @@ background-image:url(icons/fire-extinguisher.svg)
 #leftNotic
 {
     position:absolute;
-		background-color:#999;
+		background-color:#000;
     left:0px;
     top:0px;
     right:70%; //Increase it if you want a little space between the 2 divs.
     min-height: 400px; // or bottom:0px; if you want a dynamic height
+		opacity: 0.3;
+		filter: alpha(opacity=30);
 }
 #rightNotic
 {
     width:70%;
     float:right;
     min-height:400px;
-		background-color:#6F6;
+		background-color:#000;
+		border-color: #FF3A2F;
+		border-width:5px;
+    border-style:dotted solid;
+		opacity: 0.8;
+	    filter: alpha(opacity=50);
 }
 
 #footer{
@@ -203,4 +223,31 @@ background-image:url(icons/fire-extinguisher.svg)
 	background-color:#666;
 }
 
+
+/* Menu Design */
+ul {
+    list-style-type: none;
+		max-width: 400px
+    margin: 0;
+    padding: 0;
+		float: right;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
 }
